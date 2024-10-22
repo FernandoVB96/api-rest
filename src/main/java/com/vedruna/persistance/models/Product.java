@@ -25,6 +25,6 @@ public class Product implements Serializable {
     private String productName;
 
     @Column(name="product_price")
-    private String productPrice;
+    private Double productPrice;
     
 }
